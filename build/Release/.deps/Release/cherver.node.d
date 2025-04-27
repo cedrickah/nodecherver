@@ -1,0 +1,1 @@
+cmd_Release/cherver.node := ln -f "Release/obj.target/cherver.node" "Release/cherver.node" 2>/dev/null || (rm -rf "Release/cherver.node" && cp -af "Release/obj.target/cherver.node" "Release/cherver.node")
